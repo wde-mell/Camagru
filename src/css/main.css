@@ -1,0 +1,65 @@
+/*
+HEADER
+ */
+
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.header .header-logo {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    margin-left: 30px;
+}
+
+.header .header-logo:hover{
+    color: #2c3e50;
+}
+
+.header .header-menu {
+    float: right;
+    margin-right: 30px;
+}
+
+.header .header-menu a {
+    margin-right: 15px;
+    color: #ffffff;
+}
+
+.header .header-menu a:hover {
+    color: #2c3e50;
+}
+
+
+/*
+BANNER
+ */
+.banner {
+    margin-top: -25px;
+}
+
+.banner .banner-image {
+    position: relative;
+}
+
+.banner .banner-content {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    text-align: center;
+    margin-left: 4%;
+}
+
+.banner .banner-content h1,
+.banner .banner-content h2 {
+    color: #ffffff;
+}
