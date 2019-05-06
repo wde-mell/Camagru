@@ -63,3 +63,26 @@ BANNER
 .banner .banner-content h2 {
     color: #ffffff;
 }
+
+body {
+    background: #041221;
+}
+
+.footer{
+    background-color: #222831;
+    color: lemonchiffon;
+}
+
+.footer{
+    background-color: #222831;
+    color: lemonchiffon;
+}
+.footer p, strong
+{color: lemonchiffon}
+.footer a:hover
+{color: crimson;}
+.fa
+{
+    color: lemonchiffon;
+    margin: 10px
+}
