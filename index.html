@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Mon Portofolio</title>
@@ -15,6 +15,7 @@
 </head>
 
 <body>
+<header>
     <!--Menu-->
 <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
@@ -47,8 +48,8 @@
         <div class="navbar-end">
             <div class="navbar-item">
                 <div class="buttons">
-                    <a class="button is-primary">
-                        <strong>Inscrivez-vous</strong>
+                    <a class="button is-primary" a href="login.html">
+                       Inscrivez-vous
                     </a>
                     <a class="button is-light">
                         Log in
@@ -61,7 +62,7 @@
     <!--Menu-->
 
     <!---header--->
-
+</header>
     <!---Banner--->
     <div class="block">
         <div class="banner">
@@ -78,90 +79,222 @@
 
     <!---Coluns-->
 
-    <div class="row columns">
-        <div class="column is-one-third">
-            <div class="card large">
-                <div class="card-image">
-                    <figure class="image">
-                        <img src="https://images.unsplash.com/photo-1475778057357-d35f37fa89dd?dpr=1&amp;auto=compress,format&amp;fit=crop&amp;w=1920&amp;h=&amp;q=80&amp;cs=tinysrgb&amp;crop=" alt="Image">
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <div class="media">
-                        <div class="media-left">
-                            <figure class="image is-64x64">
-                                <img src="https://cdn.intra.42.fr/users/medium_jeguglie.jpg" alt="Image">
-                            </figure>
-                        </div>
-                        <div class="media-content">
-                            <p class="title is-4 no-padding">Jean Vincent</p>
-                            <p><span class="title is-6"><a href="http://twitter.com/#">@jeguglie</a></span></p>
-                        </div>
-                    </div>
-                    <div class="content">
-                        The Beast stumbled in the dark for it could no longer see the path. It started to fracture and weaken, trying to reshape itself into the form of metal. Even the witches would no longer lay eyes upon it, for it had become hideous and twisted.
-                        <div class="background-icon"><span class="icon-twitter"></span></div>
-                    </div>
-                </div>
+    <!---Coluns_1-->
+
+    <div class="columns is-desktop">
+        <div class="column"><div class="card">
+            <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="https://images.unsplash.com/photo-1475778057357-d35f37fa89dd?dpr=1&amp;auto=compress,format&amp;fit=crop&amp;w=1920&amp;h=&amp;q=80&amp;cs=tinysrgb&amp;crop=" alt="Image">
+                </figure>
             </div>
-        </div>
-        <div class="column is-one-third">
-            <div class="card large">
-                <div class="card-image">
-                    <figure class="image">
-                        <img src="https://source.unsplash.com/uzDLtlPY8kQ" alt="Image">
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <div class="media">
-                        <div class="media-left">
-                            <figure class="image is-96x96">
-                                <img src="https://cdn.discordapp.com/avatars/244932903530659841/0c924a19fcf1b5c59bc9dc1b58b61bb0.jpg?size=1024" alt="Image">
-                            </figure>
-                        </div>
-                        <div class="media-content">
-                            <p class="title is-4 no-padding">McSocks</p>
-                            <p><span class="title is-6"><a href="http://twitter.com/#">@twitterid</a></span></p>
-                            <p class="subtitle is-6">Developer</p>
-                        </div>
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-48x48">
+                            <img src="https://cdn.intra.42.fr/users/medium_jeguglie.jpg" alt="Image">
+                        </figure>
                     </div>
-                    <div class="content">
-                        The soul of the Beast seemed lost forever. Then, by the full moon's light, a child was born; child with the unbridled soul of the Beast that would make all others pale in comparison.
-                        <div class="background-icon"><span class="icon-facebook"></span></div>
+                    <div class="media-content">
+                        <p class="title is-4 no-padding">Jean Vincent</p>
+                        <p class="subtitle is-6"><a href="http://twitter.com/#">@jeguglie</a></p>
                     </div>
                 </div>
+                <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris.
+
+                    <!--icons_coluns_1-->
+
+                    <nav class="level is-desktop">
+                        <div class="level-left">
+                            <a class="level-item" aria-label="reply">
+                        <span class="icon is-medium">
+                            <img src="https://cdn3.iconfinder.com/data/icons/contact-us-set-4/256/32-256.png" title="Like">
+                          <i class="fas fa-reply" aria-hidden="true"></i>
+                        </span></a>
+                            <a class="level-item" aria-label="retweet">
+                        <span class="icon is-medium ">
+                            <img src="https://findicons.com/files/icons/756/ginux/64/favorite.png" title="Favorites">
+                          <i class="fas fa-retweet" aria-hidden="true"></i>
+                        </span></a>
+                            <a class="level-item" aria-label="like">
+                        <span class="icon is-medium">
+                           <img src="https://findicons.com/files/icons/99/office/128/edit.png" title="Write">
+                          <i class="fas fa-heart" aria-hidden="true"></i>
+                        </span></a>
+                        </div>
+                    </nav>
+
+                    <!--icons_coluns_1-->
+                </div>
+
             </div>
-        </div>
-        <div class="column is-one-third">
-            <div class="card large">
-                <div class="card-image">
-                    <figure class="image">
-                        <img src="https://source.unsplash.com/pe_R74hldW4" alt="Image">
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <div class="media">
-                        <div class="media-left">
-                            <figure class="image is-96x96">
-                                <img src="https://i.imgsafe.org/a5/a5e978ce20.jpeg" alt="Image">
-                            </figure>
-                        </div>
-                        <div class="media-content">
-                            <p class="title is-4 no-padding">The Conceptionist</p>
-                            <p><span class="title is-6"><a href="http://twitter.com/#">@twitterid</a></span></p>
-                            <p class="subtitle is-6">Developer</p>
-                        </div>
-                    </div>
-                    <div class="content">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam! Labore reprehenderit beatae magnam animi!
-                        <div class="background-icon"><span class="icon-barcode"></span></div>
-                    </div>
-                </div>
+        </div></div>
+        <!---Coluns_1-->
+
+        <!---Coluns_2-->
+
+        <div class="column"><div class="card">
+            <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="https://source.unsplash.com/uzDLtlPY8kQ" alt="Image">
+                </figure>
             </div>
-        </div>
-    </div>
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-48x48">
+                            <img src="https://cdn.discordapp.com/avatars/244932903530659841/0c924a19fcf1b5c59bc9dc1b58b61bb0.jpg?size=1024" alt="Image">
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                        <p class="title is-4 no-padding">Jean Vincent</p>
+                        <p class="subtitle is-6"><a href="http://twitter.com/#">@jeguglie</a></p>
+                    </div>
+                </div>
+                <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris.
+
+                    <!--icons_coluns_2-->
+
+                    <nav class="level is-desktop">
+                        <div class="level-left">
+                            <a class="level-item" aria-label="reply">
+                        <span class="icon is-medium">
+                            <img src="https://cdn3.iconfinder.com/data/icons/contact-us-set-4/256/32-256.png" title="Like">
+                          <i class="fas fa-reply" aria-hidden="true"></i>
+                        </span></a>
+                            <a class="level-item" aria-label="retweet">
+                        <span class="icon is-medium ">
+                            <img src="https://findicons.com/files/icons/756/ginux/64/favorite.png" title="Favorites">
+                          <i class="fas fa-retweet" aria-hidden="true"></i>
+                        </span></a>
+                            <a class="level-item" aria-label="like">
+                        <span class="icon is-medium">
+                           <img src="https://findicons.com/files/icons/99/office/128/edit.png" title="Write">
+                          <i class="fas fa-heart" aria-hidden="true"></i>
+                        </span></a>
+                        </div>
+                    </nav>
+
+                    <!--icons_coluns_2-->
+                </div>
+
+            </div>
+        </div></div>
+
+        <!---Coluns_3-->
+
+        <div class="column"><div class="card">
+            <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="https://source.unsplash.com/pe_R74hldW4" alt="Image">
+                </figure>
+            </div>
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-48x48">
+                            <img src="https://i.imgsafe.org/a5/a5e978ce20.jpeg" alt="Image">
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                        <p class="title is-4 no-padding">Jean Vincent</p>
+                        <p class="subtitle is-6"><a href="http://twitter.com/#">@jeguglie</a></p>
+                    </div>
+                </div>
+                <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris.
+
+                    <!--icons_coluns_3-->
+
+                    <nav class="level is-desktop">
+                        <div class="level-left">
+                            <a class="level-item" aria-label="reply">
+                        <span class="icon is-medium">
+                            <img src="https://cdn3.iconfinder.com/data/icons/contact-us-set-4/256/32-256.png" title="Like">
+                          <i class="fas fa-reply" aria-hidden="true"></i>
+                        </span></a>
+                            <a class="level-item" aria-label="retweet">
+                        <span class="icon is-medium ">
+                            <img src="https://findicons.com/files/icons/756/ginux/64/favorite.png" title="Favorites">
+                          <i class="fas fa-retweet" aria-hidden="true"></i>
+                        </span></a>
+                            <a class="level-item" aria-label="like">
+                        <span class="icon is-medium">
+                           <img src="https://findicons.com/files/icons/99/office/128/edit.png" title="Write">
+                          <i class="fas fa-heart" aria-hidden="true"></i>
+                        </span></a>
+                        </div>
+                    </nav>
+
+                    <!--icons_coluns_3-->
+                </div>
+
+            </div>
+        </div></div>
+        <!---Coluns_3-->
+
+        <!---Coluns_4-->
+        <div class="column"><div class="card">
+            <div class="card-image">
+                <figure class="image is-4by3">
+                    <img src="https://images.unsplash.com/photo-1475778057357-d35f37fa89dd?dpr=1&amp;auto=compress,format&amp;fit=crop&amp;w=1920&amp;h=&amp;q=80&amp;cs=tinysrgb&amp;crop=" alt="Image">
+                </figure>
+            </div>
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image is-48x48">
+                            <img src="https://cdn.intra.42.fr/users/medium_jeguglie.jpg" alt="Image">
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                        <p class="title is-4 no-padding">Jean Vincent</p>
+                        <p class="subtitle is-6"><a href="http://twitter.com/#">@jeguglie</a></p>
+                    </div>
+                </div>
+                <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris.
+
+                    <!--icons_coluns_4-->
+
+                    <nav class="level is-desktop">
+                        <div class="level-left">
+                            <a class="level-item" aria-label="reply">
+                        <span class="icon is-medium">
+                            <img src="https://cdn3.iconfinder.com/data/icons/contact-us-set-4/256/32-256.png" title="Like">
+                          <i class="fas fa-reply" aria-hidden="true"></i>
+                        </span></a>
+                            <a class="level-item" aria-label="retweet">
+                        <span class="icon is-medium ">
+                            <img src="https://findicons.com/files/icons/756/ginux/64/favorite.png" title="Favorites">
+                          <i class="fas fa-retweet" aria-hidden="true"></i>
+                        </span></a>
+                            <a class="level-item" aria-label="like">
+                        <span class="icon is-medium">
+                           <img src="https://findicons.com/files/icons/99/office/128/edit.png" title="Write">
+                          <i class="fas fa-heart" aria-hidden="true"></i>
+                        </span></a>
+                        </div>
+                    </nav>
+
+                    <!--icons_coluns_4-->
+                </div>
+
+            </div>
+        </div></div>
+        <!---Coluns_4-->
 
 
+    </div> <!---div_coluns-->
+
+
+    <!--footer-->
     <footer class="footer">
         <div class="container">
             <div class="content has-text-centered">
@@ -177,6 +310,8 @@
             </div>
         </div>
     </footer>
+
+    <!--footer-->
 
 <script></script>
 </body>
